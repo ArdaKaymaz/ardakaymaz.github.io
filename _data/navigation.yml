@@ -6,7 +6,7 @@ main:
     url: /projects/
   - title: "Curriculum Vitae"
     url: /cv/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "Contact"
+    url: /contact/
   # - title: "Sitemap"
   #   url: /sitemap/
