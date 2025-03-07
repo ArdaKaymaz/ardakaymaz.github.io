@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Welcome to my page!"
+title:  "Hello, this is my first post!"
 ---
 
 # Welcome
 
 **Hello world**, here is the best chef in the world! Also, the best photographer (soon)!
 
-[To see her, just click on me](https://www.instagram.com/chefhatche/)
+[If you are curious, just click on me!](https://www.instagram.com/chefhatche/)
