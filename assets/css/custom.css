@@ -1,0 +1,6 @@
+.site-logo img {
+    width: 150px; /* Boyutu ayarla */
+    height: 150px;
+    border-radius: 50%; /* Yuvarlak yapmak için */
+    object-fit: cover;
+}
