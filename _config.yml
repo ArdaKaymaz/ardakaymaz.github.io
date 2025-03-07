@@ -115,7 +115,8 @@ analytics:
 author:
   name             : "About Me"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Hello, my name is Arda Kaymaz and this is my personal portfolio! /n I'm a data scientist!"
+  bio              : "Hello, my name is Arda Kaymaz and this is my personal portfolio!
+  I'm a data scientist!"
   location         : "Definitely on earth!"
   email            : # "kymzarda@gmail.com"
   links:
