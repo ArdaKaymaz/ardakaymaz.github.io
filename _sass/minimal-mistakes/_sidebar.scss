@@ -126,6 +126,7 @@
   vertical-align: top;
   width: 180px;  /* Avatarın başlangıç boyutu */
   height: 180px;
+   border-radius: 50%
 
   @include breakpoint($large) {
     width: 250px; /* Büyük ekranlar için avatar boyutu */
@@ -134,7 +135,7 @@
 
   img {
     max-width: 300px; /* Resmin boyutu */
-    border-radius: 25%;
+    border-radius: 50%;
     
     @include breakpoint($large) {
       padding: 5px;
