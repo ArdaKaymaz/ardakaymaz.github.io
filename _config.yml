@@ -21,7 +21,7 @@ title                    : "Arda Kaymaz"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "About Me"
-description              : "Hello, I'm a data scientist and this is my personal portfolio!"
+description              : # "Hello, I'm a data scientist and this is my personal portfolio!"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "About Me"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Hello, my name is Arda Kaymaz and this is my personal portfolio!"
+  bio              : "Hello, my name is Arda Kaymaz and this is my personal portfolio! /n I'm a data scientist!"
   location         : "Definitely on earth!"
   email            : # "kymzarda@gmail.com"
   links:
