@@ -3,7 +3,7 @@ layout: post
 title:  "Hello, this is my first post!"
 ---
 
-# Welcome
+# Hello World!
 
 **Hello world**, here is the best chef in the world! Also, the best photographer (soon)!
 
