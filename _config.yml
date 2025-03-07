@@ -144,7 +144,6 @@ footer:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:kymzarda@gmail.com"
-      color: "#000000"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
@@ -154,6 +153,7 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ArdaKaymaz"
+      color: "#000000"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ardakaymaz/"
