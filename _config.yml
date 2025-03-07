@@ -153,10 +153,10 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ArdaKaymaz"
-      color: "#000000"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ardakaymaz/"
+      color: "#000000"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
