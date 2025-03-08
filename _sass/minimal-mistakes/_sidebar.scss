@@ -124,17 +124,19 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 180px;  /* Avatarın başlangıç boyutu */
-  height: 90px;
-   border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
 
   @include breakpoint($large) {
-    width: 250px; /* Büyük ekranlar için avatar boyutu */
+    width: 250px;
     height: 250px;
   }
 
   img {
-    max-width: 300px; /* Resmin boyutu */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 50%;
     
     @include breakpoint($large) {
