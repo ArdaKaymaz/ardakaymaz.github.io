@@ -142,7 +142,6 @@ author:
 # Site Footer
 footer:
   links:
-    show_follow: false
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:kymzarda@gmail.com"
