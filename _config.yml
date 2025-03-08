@@ -21,7 +21,7 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "Arda Kaymaz"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "About Me"
+name                     : # "About Me"
 description              : # "Hello, I'm a data scientist and this is my personal portfolio!"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
