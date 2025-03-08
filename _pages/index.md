@@ -26,5 +26,5 @@ classes: wide
   </ul>
 
   <!-- Optional "Read More" button -->
-  <p><a href="{{ '/about' | relative_url }}" class="btn btn--primary">Devamını Oku</a></p>
+  <p><a href="{{ '/cv' | relative_url }}" class="btn btn--primary">Click to see my CV</a></p>
 </div>
