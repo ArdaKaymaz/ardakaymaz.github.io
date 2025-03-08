@@ -116,7 +116,6 @@ analytics:
 author:
   name             : "About Me"
   avatar           : "/assets/images/avatar.jpg"
-  bio              : "Hello, my name is Arda Kaymaz and this is my personal portfolio!" 
   bio              : "Data Scientist | AI & ML Engineer | M. Sc. Applied Scientist"
   location         : "Definitely on earth!"
   email            : # "kymzarda@gmail.com"
