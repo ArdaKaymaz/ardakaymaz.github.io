@@ -117,7 +117,7 @@ author:
   name             : "About Me"
   avatar           : "/assets/images/avatar.jpg"
   bio              : "Data Scientist | AI & ML Engineer | M. Sc. Applied Scientist"
-  location         : "Definitely on earth!"
+  location         : # "Definitely on earth!"
   email            : # "kymzarda@gmail.com"
   links:
     - label: "Email"
@@ -144,7 +144,7 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:kymzarda@gmail.com"
+      # url: "mailto:kymzarda@gmail.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
@@ -153,11 +153,11 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/ArdaKaymaz"
+      # url: "https://github.com/ArdaKaymaz"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/ardakaymaz/"
-      color: "#000000"
+      # url: "https://www.linkedin.com/in/ardakaymaz/"
+      # color: "#000000"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
