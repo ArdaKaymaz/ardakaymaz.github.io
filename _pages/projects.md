@@ -1,8 +1,8 @@
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+---
+title: "Projects"
+layout: single
+permalink: /projects/
+---
+
+## Hello!
+Here are my projects!
