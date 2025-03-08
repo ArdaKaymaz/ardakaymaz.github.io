@@ -124,8 +124,8 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 360px;  /* Avatarın başlangıç boyutu */
-  height: 180px;
+  width: 180px;  /* Avatarın başlangıç boyutu */
+  height: 90px;
    border-radius: 50%;
 
   @include breakpoint($large) {
