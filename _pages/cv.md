@@ -66,11 +66,24 @@ toc_icon: "gear"
 
 <div class="cv-section">
     <ul style="list-style-type: none; padding: 0; margin: 0;">
-        <li><strong style="color: black;">02/2020 — 08/2022:</strong> <em>Master of Science</em> @ Çanakkale Onsekiz Mart University</li>
-        <li style="margin-left: 1.5rem; margin-bottom: 1rem; color: black;">- Thesis: Factors Affecting Survivability in Japanese Quails (Coturnix coturnix japonica)</li>
-        
-        <li><strong style="color: black;">08/2015 — 01/2020:</strong> <em>Bachelor of Science</em> @ Çanakkale Onsekiz Mart University</li>
-        <li style="margin-left: 1.5rem; color: black;">- Major: Animal Science</li>
+        <!-- Master -->
+        <li>
+            <strong style="color: black;">02/2020 — 08/2022:</strong> <em>Master of Science</em> @ <em>Çanakkale Onsekiz Mart University Graduate School of Natural and Applied Sciences</em>
+            <div style="margin-left: 0; margin-bottom: 1rem; color: black;">
+                Master of Science education focusing on statistics, data analytics, and quantitative genetics with a major in Animal Science and with a minor in Animal Breeding and Genetics. Led an experimental research project, applied statistical methods, developed hypotheses, and conducted experiments to explain death risk, adaptability and survivability traits of over 64.000 species by applying advanced statistical methods (e.g., regression, cluster analysis, A/B tests, forecasting).
+            </div>
+            <ul style="margin-left: 1.5rem; padding-left: 1rem;">
+                <li>Thesis: Factors Affecting Survivability in Japanese Quails (Coturnix coturnix japonica)</li>
+            </ul>
+        </li>
+
+        <!-- Bachelor -->
+        <li>
+            <strong style="color: black;">08/2015 — 01/2020:</strong> <em>Bachelor of Science</em> @ <em>Çanakkale Onsekiz Mart University Faculty of Agricultural Engineering Department of Animal Science</em>
+            <div style="margin-left: 0; margin-bottom: 1rem; color: black;">
+                Major in Animal Science and minor in Animal Nutrition.
+            </div>
+        </li>
     </ul>
 </div>
 
