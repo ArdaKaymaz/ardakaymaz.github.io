@@ -1,0 +1,3 @@
+.page__footer-follow .social-icons li:first-child strong {
+  display: none !important;
+}
