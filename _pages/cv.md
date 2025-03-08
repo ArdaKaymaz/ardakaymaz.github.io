@@ -12,26 +12,20 @@ toc_icon: "gear"
 
 <p style="text-align: justify; margin-bottom: 2rem;">For my complete CV, please contact me via email.</p>
 
-## Professional Summary
-
-**Data Scientist** | 5+ Years Experience | Machine Learning & Deep Learning Specialist  
-📧 kymzarda@gmail.com | 📍 Istanbul, Turkey  
-🔗 [linkedin.com/in/ardakaymaz](https://linkedin.com/in/ardakaymaz) | 📱 +90 551 384 11 41
-
 ---
 
 ## Professional Experience
 
 <div class="cv-section">
     <ul style="list-style-type: none; padding: 0; margin: 0;">
-        <li><strong>01/2024 — 08/2024:</strong> Data Scientist @ <em>Miuul, Sweden</em></li>
-        <li style="margin-left: 1.5rem; margin-bottom: 1rem;">- Developed RAG-based LLM technical support chatbot</li>
+        <li><strong style="color: black;">01/2024 — 08/2024:</strong> Data Scientist @ <em>Miuul, Sweden</em></li>
+        <li style="margin-left: 1.5rem; margin-bottom: 1rem; color: black;">- Developed RAG-based LLM technical support chatbot</li>
         
-        <li><strong>06/2018 — 11/2022:</strong> Data Analyst @ <em>Family Farm, Turkey</em></li>
-        <li style="margin-left: 1.5rem; margin-bottom: 1rem;">- Achieved 32% production increase using REML/MCMC</li>
+        <li><strong style="color: black;">06/2018 — 11/2022:</strong> Data Analyst @ <em>Family Farm, Turkey</em></li>
+        <li style="margin-left: 1.5rem; margin-bottom: 1rem; color: black;">- Achieved 32% production increase using REML/MCMC</li>
         
-        <li><strong>06/2018 — 08/2018:</strong> Animal Science Intern @ <em>Kaanlar Food Industry</em></li>
-        <li style="margin-left: 1.5rem;">- Genetic data analysis for efficiency optimization</li>
+        <li><strong style="color: black;">06/2018 — 08/2018:</strong> Animal Science Intern @ <em>Kaanlar Food Industry</em></li>
+        <li style="margin-left: 1.5rem; color: black;">- Genetic data analysis for efficiency optimization</li>
     </ul>
 </div>
 
@@ -41,11 +35,11 @@ toc_icon: "gear"
 
 <div class="cv-section">
     <ul style="list-style-type: none; padding: 0; margin: 0;">
-        <li><strong>02/2020 — 08/2022:</strong> <em>Master of Science</em> @ Çanakkale Onsekiz Mart University</li>
-        <li style="margin-left: 1.5rem; margin-bottom: 1rem;">- Thesis: Survival Analysis in Japanese Quails (64,000+ data points)</li>
+        <li><strong style="color: black;">02/2020 — 08/2022:</strong> <em>Master of Science</em> @ Çanakkale Onsekiz Mart University</li>
+        <li style="margin-left: 1.5rem; margin-bottom: 1rem; color: black;">- Thesis: Factors Affecting Survivability in Japanese Quails (Coturnix coturnix japonica)</li>
         
-        <li><strong>08/2015 — 01/2020:</strong> <em>Bachelor of Science</em> @ Çanakkale Onsekiz Mart University</li>
-        <li style="margin-left: 1.5rem;">- Major: Animal Science</li>
+        <li><strong style="color: black;">08/2015 — 01/2020:</strong> <em>Bachelor of Science</em> @ Çanakkale Onsekiz Mart University</li>
+        <li style="margin-left: 1.5rem; color: black;">- Major: Animal Science</li>
     </ul>
 </div>
 
@@ -59,12 +53,17 @@ toc_icon: "gear"
 }
 
 .cv-section strong {
-  color: #4B0082;
+  font-weight: bold;
+  color: black;
 }
 
 .cv-section em {
   font-style: normal;
   border-bottom: 2px solid #4B0082;
+}
+
+.cv-section li {
+  color: black;
 }
 
 @media screen and (max-width: 768px) {
