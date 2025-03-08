@@ -6,66 +6,74 @@ permalink: /cv/
 classes: wide
 author_profile: true
 toc: true
-toc_label: "İçerik"
-toc_icon: "file-alt"
+toc_label: "Categories"
+toc_icon: "gear"
 ---
 
-<p style="text-align: justify; margin-bottom: 2rem;">
-Detaylı CV'mi incelemek için lütfen <a href="mailto:kymzarda@gmail.com">kymzarda@gmail.com</a> üzerinden iletişime geçiniz.
-</p>
+<p style="text-align: justify; margin-bottom: 2rem;">For my complete CV, please contact me via email.</p>
 
-## Özgeçmiş Özeti
+## Professional Summary
 
-### Profesyonel Deneyim
+**Data Scientist** | 5+ Years Experience | Machine Learning & Deep Learning Specialist  
+📧 kymzarda@gmail.com | 📍 Istanbul, Turkey  
+🔗 [linkedin.com/in/ardakaymaz](https://linkedin.com/in/ardakaymaz) | 📱 +90 551 384 11 41
 
-<div style="margin-bottom: 30px;">
-    <ul style="list-style-type: none; padding: 0;">
-        <li><strong>2024 Ocak - 2024 Ağustos:</strong> Data Scientist @ <strong>Miuul, İsveç</strong>
-            <ul style="margin-top: 8px;">
-                <li>LLM ve RAG tabanlı teknik destek chatbot geliştirme</li>
-                <li>Prompt mühendisliği ile kullanıcı etkileşim optimizasyonu</li>
-            </ul>
-        </li>
-        <li style="margin-top: 15px;"><strong>2018 Haziran - 2022 Kasım:</strong> Data Analyst @ <strong>Family Farm, Türkiye</strong>
-            <ul style="margin-top: 8px;">
-                <li>REML/MCMC ile %32 üretim artışı</li>
-                <li>Yem maliyetlerinde %25 tasarruf</li>
-            </ul>
-        </li>
+---
+
+## Professional Experience
+
+<div class="cv-section">
+    <ul style="list-style-type: none; padding: 0; margin: 0;">
+        <li><strong>01/2024 — 08/2024:</strong> Data Scientist @ <em>Miuul, Sweden</em></li>
+        <li style="margin-left: 1.5rem; margin-bottom: 1rem;">- Developed RAG-based LLM technical support chatbot</li>
+        
+        <li><strong>06/2018 — 11/2022:</strong> Data Analyst @ <em>Family Farm, Turkey</em></li>
+        <li style="margin-left: 1.5rem; margin-bottom: 1rem;">- Achieved 32% production increase using REML/MCMC</li>
+        
+        <li><strong>06/2018 — 08/2018:</strong> Animal Science Intern @ <em>Kaanlar Food Industry</em></li>
+        <li style="margin-left: 1.5rem;">- Genetic data analysis for efficiency optimization</li>
     </ul>
 </div>
 
-### Eğitim Geçmişi
+---
 
-<div style="margin-bottom: 30px;">
-    <ul style="list-style-type: none; padding: 0;">
-        <li><strong>2020 Şubat - 2022 Ağustos:</strong> <strong>Yüksek Lisans</strong> @ Çanakkale Onsekiz Mart Üniversitesi
-            <ul style="margin-top: 8px;">
-                <li>Tez: Japon Bıldırcınlarında Hayatta Kalma Analizi</li>
-                <li>64.000+ veri noktası ile istatistiksel modelleme</li>
-            </ul>
-        </li>
+## Education
+
+<div class="cv-section">
+    <ul style="list-style-type: none; padding: 0; margin: 0;">
+        <li><strong>02/2020 — 08/2022:</strong> <em>Master of Science</em> @ Çanakkale Onsekiz Mart University</li>
+        <li style="margin-left: 1.5rem; margin-bottom: 1rem;">- Thesis: Survival Analysis in Japanese Quails (64,000+ data points)</li>
+        
+        <li><strong>08/2015 — 01/2020:</strong> <em>Bachelor of Science</em> @ Çanakkale Onsekiz Mart University</li>
+        <li style="margin-left: 1.5rem;">- Major: Animal Science</li>
     </ul>
 </div>
 
-### Teknik Yetkinlikler
+<style>
+.cv-section {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 
-<div class="skill-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+.cv-section strong {
+  color: #4B0082;
+}
 
-<div style="border-left: 4px solid #4B0082; padding-left: 15px;">
-<h4>Veri Bilimi</h4>
-<ul>
-<li>Python (TensorFlow, PyTorch)</li>
-<li>NLP & LLM (BERT, RAG)</li>
-</ul>
-</div>
+.cv-section em {
+  font-style: normal;
+  border-bottom: 2px solid #4B0082;
+}
 
-<div style="border-left: 4px solid #4B0082; padding-left: 15px;">
-<h4>Big Data</h4>
-<ul>
-<li>Apache Hadoop Ecosystem</li>
-<li>Spark ile Dağıtık Hesaplama</li>
-</ul>
-</div>
-
-</div>
+@media screen and (max-width: 768px) {
+  .cv-section {
+    padding: 1rem;
+  }
+  
+  .cv-section li {
+    font-size: 0.9rem;
+  }
+}
+</style>
