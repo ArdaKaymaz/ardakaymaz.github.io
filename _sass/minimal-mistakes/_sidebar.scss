@@ -120,18 +120,21 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 36px;
-  height: 36px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Kapsayıcıya yuvarlak şekil */
 
   @include breakpoint($large) {
-    display: block;
-    width: auto;
-    height: auto;
+    width: 250px;
+    height: 250px;
   }
 
   img {
-    max-width: 110px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 50%;
+    box-sizing: border-box; /* Padding ve border'ı içeri al */
 
     @include breakpoint($large) {
       padding: 5px;
