@@ -22,7 +22,7 @@ classes: wide
     <li>AI Agents</li>
     <li>AI/ML</li>
     <li>LLM and Chatbot</li>
-    <li>Time-Series</li>
+    <li>Time-Series Analysis</li>
     <li>Algorithmic Trading</li>
   </ul>
 
