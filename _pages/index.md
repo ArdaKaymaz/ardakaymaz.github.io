@@ -21,6 +21,7 @@ classes: wide
   <ul style="padding-left: 15px; line-height: 1.6;">
     <li>AI Agents</li>
     <li>AI/ML</li>
+    <li>LLM and Chatbot</li>
     <li>Time-Series</li>
     <li>Algorithmic Trading</li>
   </ul>
