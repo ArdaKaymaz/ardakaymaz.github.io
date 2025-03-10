@@ -7,8 +7,8 @@ permalink: /projects/
 <style>
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 2 sütun */
-  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr); /* 2 sütun */
+  gap: 3rem;
   padding: 1rem 0;
 }
 
