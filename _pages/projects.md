@@ -56,7 +56,7 @@ Here are my projects!
         </a>
       {% endif %}
       
-      {% if project.demo_url %}
+      {% if project.app_url %}
         <a href="{{ project.demo_url }}" class="btn btn--success" aria-label="Live Demo">
           <i class="fas fa-external-link-alt"></i> Demo
         </a>
