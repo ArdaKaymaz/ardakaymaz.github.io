@@ -7,71 +7,91 @@ permalink: /projects/
 <style>
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 sütun */
-  gap: 2rem;
-  padding: 1rem 0;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+  padding: 2rem 0;
 }
 
 .project-card {
   border: 1px solid #eaeaea;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
-  transition: transform 0.2s;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background: white;
 }
 
 .project-card:hover {
-  transform: translateY(-3px);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.project-image {
+  position: relative;
+  overflow: hidden;
 }
 
 .project-image img {
   width: 100%;
-  height: 200px;
+  height: 280px; /* Görsel yüksekliği artırıldı */
   object-fit: cover;
-  border-bottom: 2px solid #6f777d;
+  object-position: top;
+  border-bottom: 4px solid #6f777d;
+  transition: transform 0.3s ease;
+}
+
+.project-image:hover img {
+  transform: scale(1.03);
 }
 
 .project-content {
-  padding: 1.5rem;
+  padding: 2rem;
+}
+
+.project-content h3 {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+  color: #2d3748;
+}
+
+.project-content p {
+  color: #4a5568;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tag {
+  background: #f7fafc;
+  border: 1px solid #e2e8f0;
+  color: #2d3748;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
 }
 
 @media (max-width: 768px) {
   .projects-container {
-    grid-template-columns: 1fr; /* Mobilde tek sütun */
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .project-image img {
+    height: 220px; /* Mobilde biraz küçült */
+  }
+  
+  .project-content {
+    padding: 1.5rem;
   }
 }
 </style>
-
-<div class="projects-container">
-{% for project in site.projects %}
-  <div class="project-card">
-    <div class="project-image">
-      <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
-    </div>
-    
-    <div class="project-content">
-      <h3>{{ project.title }}</h3>
-      <p>{{ project.excerpt }}</p>
-      
-      <div class="project-tags">
-        {% for tag in project.tags %}
-          <span class="tag">{{ tag }}</span>
-        {% endfor %}
-      </div>
-
-      <div class="project-links">
-        {% if project.github %}
-          <a href="https://github.com/{{ project.github }}" class="btn btn--primary">
-            <i class="fab fa-github"></i> GitHub
-          </a>
-        {% endif %}
-        
-        {% if project.demo %}
-          <a href="{{ project.demo }}" class="btn btn--success">
-            <i class="fas fa-external-link-alt"></i> Demo
-          </a>
-        {% endif %}
-      </div>
-    </div>
-  </div>
-{% endfor %}
-</div>
