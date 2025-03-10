@@ -324,10 +324,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-
-# Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -338,10 +335,16 @@ defaults:
       comments: true
       share: true
       related: true
-    # _projects
+
+  # 2. Yeni Projects Ayarları
   - scope:
       path: ""
-      type: projects
+      type: projects  # collections'daki projects tipiyle eşleşmeli
     values:
-      layout: project
-      author_profile: false
+      layout: single
+      author_profile: false  # Proje sayfalarında profil gizle
+      share: true           # Paylaşım butonları göster
+      comments: false       # Yorumları kapat
+      toc: false            # İçindekiler tablosunu gizle
+      sidebar:
+        nav: "projects"     # Özel sidebar navigasyon
