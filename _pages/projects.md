@@ -37,10 +37,10 @@ permalink: /projects/
   padding: 0.5rem;
 }
 
-.project-content h3 {
+.project-content h2 {
   /* Başlık üst boşluğunu sıfırla */
-  margin-top: 0 !important;
-  padding-top: 0;
+  margin-top: 0rem !important;
+  padding-top: 0rem;
 }
 
 @media (max-width: 768px) {
