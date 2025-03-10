@@ -3,8 +3,8 @@
 ---
 title: "Portfolio"
 layout: collection
-permalink: /portfolio/
-collection: portfolio
+permalink: /projects/
+collection: projects
 entries_layout: grid
 classes: wide
 header:
