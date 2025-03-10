@@ -334,4 +334,15 @@ defaults:
       share: true
       related: true
 
-font_awesome: true
+collections:
+  projects:
+    output: true # Her proje için ayrı sayfa oluşturur
+    permalink: /projects/:path/
+    
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+      author_profile: false
