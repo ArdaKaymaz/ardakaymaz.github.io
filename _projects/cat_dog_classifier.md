@@ -6,6 +6,6 @@ tags:
   - "Deep Learning"
   - "Computer Vision"
   - "Python"
-github: "https://github.com/ArdaKaymaz/Cat_Dog_Classifier_App"
+github: "/ArdaKaymaz/Cat_Dog_Classifier_App"
 demo: "https://catdogclassifierapp.streamlit.app/"
 ---
