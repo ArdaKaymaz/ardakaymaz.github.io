@@ -348,3 +348,5 @@ defaults:
       comments: false
       read_time: false
       toc: false
+      sidebar: 
+        nav: false
