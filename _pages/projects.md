@@ -1,13 +1,13 @@
 ---
 title: "Projects"
-layout: archive
+layout: splash
 permalink: /projects/
 ---
 
 <style>
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 sütun */
+  grid-template-columns: repeat(3, 1fr); /* 2 sütun */
   gap: 2rem;
   padding: 1rem 0;
 }
