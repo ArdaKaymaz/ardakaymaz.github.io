@@ -25,10 +25,19 @@ permalink: /projects/
   transform: translateY(-3px);
 }
 
+.project-image {
+  position: relative;
+  width: 100%;
+  height: 250px; /* Sabit yükseklik */
+  overflow: hidden;
+  border-radius: 8px 8px 0 0;
+}
+
 .project-image img {
   width: 100%;
-  height: 200px;
+  height: 100%;
   object-fit: cover;
+  object-position: center;
   border-bottom: 1px solid #6f777d;
   margin-bottom: 0rem;
 }
