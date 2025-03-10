@@ -333,4 +333,4 @@ defaults:
       share: true
       related: true
 
-# font_awesome: true
+font_awesome: true
