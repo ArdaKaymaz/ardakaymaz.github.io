@@ -1,63 +1,65 @@
+<!-- _pages/projects.md -->
+
 ---
 layout: single
-title: "Projects"
+title: "Projelerim"
 permalink: /projects/
+author_profile: true
 ---
 
-## Hello!
-Here are my projects!
-
-{% include base_path %}
+{% assign projects = site.data.projects %}
 
 <style>
-  .project-block {
-    display: grid;
-    grid-template-columns: 300px 1fr;
-    gap: 2rem;
-    margin-bottom: 3rem;
-    padding: 1rem;
-    border: 1px solid #eee;
-    border-radius: 8px;
-  }
+.project-card {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 2rem;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 
-  .project-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 4px;
-  }
+.project-image img {
+  border-radius: 5px;
+  height: 200px;
+  object-fit: cover;
+}
 
-  .project-tags { margin-top: 1rem; }
+.project-links a { margin-right: 10px; }
 
-  @media (max-width: 768px) {
-    .project-block { grid-template-columns: 1fr; }
-  }
+@media (max-width: 768px) {
+  .project-card { grid-template-columns: 1fr; }
+  .project-image img { height: auto; }
+}
 </style>
 
-{% for project in site.data.projects %}
-<div class="project-block">
+{% for project in projects %}
+<div class="project-card">
   <div class="project-image">
-    <img src="{{ project.image }}" alt="{{ project.title }}">
+    <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
   </div>
   
   <div class="project-content">
-    <h3>{{ project.title }}</h3>
+    <h2>{{ project.title }}</h2>
     <p>{{ project.description }}</p>
     
     <div class="project-tags">
       {% for tag in project.tags %}
-        <span class="btn btn--primary btn--small">{{ tag }}</span>
+        <span class="label label--primary">{{ tag }}</span>
       {% endfor %}
     </div>
 
-    <div class="project-links">
-      {% if project.github_url %}
-        <a href="{{ project.github_url }}" class="btn btn--info" aria-label="GitHub Repository">
+    <div class="project-links mt-2">
+      {% if project.github %}
+        <a href="https://github.com/{{ project.github }}" class="btn btn--github" target="_blank">
           <i class="fab fa-github"></i> GitHub
         </a>
       {% endif %}
       
-      {% if project.app_url %}
-        <a href="{{ project.demo_url }}" class="btn btn--success" aria-label="Live Demo">
+      {% if project.demo %}
+        <a href="{{ project.demo }}" class="btn btn--demo" target="_blank">
           <i class="fas fa-external-link-alt"></i> Demo
         </a>
       {% endif %}
