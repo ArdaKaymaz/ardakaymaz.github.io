@@ -49,7 +49,7 @@ permalink: /projects/
     </div>
     
     <div class="project-content">
-      <h3>{{ project.title }}</h3>
+      <h2>{{ project.title }}</h2>
       <p>{{ project.excerpt }}</p>
       
       <div class="project-tags">
