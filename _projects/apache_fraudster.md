@@ -1,6 +1,7 @@
 ---
 title: "Apache vs The Fraudster"
 excerpt: "Fraud detection model developed using big data technologies"
+image: "/assets/images/projects/apache_fraudster.png"
 tags: 
   - "Big Data"
   - "Machine Learning"
