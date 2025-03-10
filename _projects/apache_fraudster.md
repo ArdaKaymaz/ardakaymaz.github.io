@@ -11,5 +11,5 @@ tags:
   - "Scala"
   - "Linux/Unix"
   - "Python"
-github: "https://github.com/ArdaKaymaz/Apache_vs_The_Fraudster"
+github: "/ArdaKaymaz/Apache_vs_The_Fraudster"
 ---
