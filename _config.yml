@@ -325,6 +325,7 @@ collections:
     permalink: /projects/:path/
 
 defaults:
+  # Posts için varsayılanlar (mevcut ayarlar korundu)
   - scope:
       path: ""
       type: posts
@@ -336,12 +337,14 @@ defaults:
       share: true
       related: true
 
-  # 2. Yeni Projects Ayarları
+  # Projects koleksiyonu için yeni varsayılanlar
   - scope:
       path: ""
-      type: projects  # collections'daki projects tipiyle eşleşmeli
+      type: projects
     values:
       layout: single
-      author_profile: false  # Proje sayfalarında profil gizle
-      share: true           # Paylaşım butonları göster
-      comments: false       # Yorumları kapat
+      author_profile: false
+      share: true
+      comments: false
+      read_time: false
+      toc: false
