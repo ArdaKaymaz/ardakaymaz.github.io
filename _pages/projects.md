@@ -1,4 +1,4 @@
-<!-- _pages/projects.md -->
+<!-- _pages/projects.md (DÜZELTİLMİŞ HALİ) -->
 
 ---
 layout: single
@@ -24,21 +24,40 @@ author_profile: true
 .project-image img {
   border-radius: 5px;
   height: 200px;
+  width: 100%; /* Eklendi */
   object-fit: cover;
 }
 
-.project-links a { margin-right: 10px; }
+.project-links a { 
+  margin-right: 10px;
+  margin-bottom: 5px; /* Mobil için */
+}
+
+/* Minimal Mistakes Tema Uyumu */
+.label--primary {
+  background: #6f777d;
+  color: white !important;
+  padding: 0.2em 0.6em;
+  border-radius: 4px;
+  font-size: 0.85em;
+}
 
 @media (max-width: 768px) {
-  .project-card { grid-template-columns: 1fr; }
-  .project-image img { height: auto; }
+  .project-card { 
+    grid-template-columns: 1fr;
+    padding: 1rem; /* Mobil padding düzeltmesi */
+  }
+  .project-image img { 
+    height: 180px; /* Sabit yükseklik korunsun */
+  }
 }
 </style>
 
 {% for project in projects %}
 <div class="project-card">
   <div class="project-image">
-    <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+    <!-- Mutlak path düzeltmesi -->
+    <img src="{{ '/' | append: project.image | relative_url }}" alt="{{ project.title }}">
   </div>
   
   <div class="project-content">
@@ -53,13 +72,14 @@ author_profile: true
 
     <div class="project-links mt-2">
       {% if project.github %}
-        <a href="https://github.com/{{ project.github }}" class="btn btn--github" target="_blank">
+        <!-- GitHub URL Format Düzeltmesi -->
+        <a href="https://github.com/{{ project.github }}" class="btn btn--info" target="_blank" rel="noopener">
           <i class="fab fa-github"></i> GitHub
         </a>
       {% endif %}
       
       {% if project.demo %}
-        <a href="{{ project.demo }}" class="btn btn--demo" target="_blank">
+        <a href="{{ project.demo }}" class="btn btn--success" target="_blank" rel="noopener">
           <i class="fas fa-external-link-alt"></i> Demo
         </a>
       {% endif %}
