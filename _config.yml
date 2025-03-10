@@ -345,6 +345,3 @@ defaults:
       author_profile: false  # Proje sayfalarında profil gizle
       share: true           # Paylaşım butonları göster
       comments: false       # Yorumları kapat
-      toc: false            # İçindekiler tablosunu gizle
-      sidebar:
-        nav: "projects"     # Özel sidebar navigasyon
