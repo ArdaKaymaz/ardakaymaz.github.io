@@ -1,6 +1,7 @@
 ---
 title: "Projects"
 layout: splash
+classes: wide
 permalink: /projects/
 ---
 
