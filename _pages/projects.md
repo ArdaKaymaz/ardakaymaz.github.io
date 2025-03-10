@@ -8,8 +8,8 @@ permalink: /projects/
 .projects-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 sütun */
-  gap: 1rem;
-  padding: 0.5rem 0;
+  gap: 2rem;
+  padding: 1rem 0;
 }
 
 .project-card {
