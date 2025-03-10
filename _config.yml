@@ -115,7 +115,7 @@ analytics:
 # Site Author
 author:
   name             : # "About Me"
-  avatar           : "/assets/images/avatar/avatar.jpg"
+  avatar           : "/assets/avatar/avatar.jpg"
   bio              : "Data Scientist | AI & ML Engineer | M. Sc. Applied Scientist"
   location         : "Istanbul, Turkey"
   email            : # "kymzarda@gmail.com"
