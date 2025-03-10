@@ -27,7 +27,7 @@ permalink: /projects/
   width: 100%;
   height: 200px;
   object-fit: cover;
-  border-bottom: 2px solid #6f777d;
+  border-bottom: 1px solid #6f777d;
 }
 
 .project-content {
