@@ -1,7 +1,6 @@
 ---
 title: "Projects"
-layout: splash
-classes: wide
+layout: archive
 permalink: /projects/
 ---
 
