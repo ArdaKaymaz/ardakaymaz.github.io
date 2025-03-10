@@ -10,6 +10,6 @@ tags:
   - " Spark |"
   - " Scala |"
   - " Linux/Unix |"
-  - " Python |"
+  - " Python"
 github: "/ArdaKaymaz/Apache_vs_The_Fraudster"
 ---
