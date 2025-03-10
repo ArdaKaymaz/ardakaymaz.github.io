@@ -17,6 +17,8 @@ permalink: /projects/
   border-radius: 8px;
   overflow: hidden;
   transition: transform 0.2s;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .project-card:hover {
@@ -28,6 +30,7 @@ permalink: /projects/
   height: 200px;
   object-fit: cover;
   border-bottom: 1px solid #6f777d;
+  margin-bottom: 0rem;
 }
 
 .project-content {
