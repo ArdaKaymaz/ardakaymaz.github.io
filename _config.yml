@@ -336,7 +336,7 @@ defaults:
 
 collections:
   projects:
-    output: true # Her proje için ayrı sayfa oluşturur
+    output: true
     permalink: /projects/:path/
     
 defaults:
