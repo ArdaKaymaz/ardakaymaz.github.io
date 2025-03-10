@@ -7,71 +7,45 @@ permalink: /projects/
 <style>
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 sütun */
-  gap: 2rem;
-  padding: 1rem 0;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem; /* Container genel boşluğu azaltıldı */
 }
 
 .project-card {
-  border: 1px solid #eaeaea;
+  border: 1px solid #eee;
   border-radius: 8px;
   overflow: hidden;
-  transition: transform 0.2s;
-}
-
-.project-card:hover {
-  transform: translateY(-3px);
 }
 
 .project-image img {
   width: 100%;
-  height: 200px;
+  height: 180px; /* Görsel yüksekliği azaltıldı */
   object-fit: cover;
-  border-bottom: 2px solid #6f777d;
 }
 
 .project-content {
-  padding: 1.5rem;
+  padding: 1rem; /* Padding daraltıldı */
+}
+
+.project-content h3 {
+  margin: 0.5rem 0; /* Başlık boşluğu ayarlandı */
+}
+
+.project-content p {
+  margin: 0.3rem 0 0.8rem; /* Açıklama boşlukları optimize edildi */
+}
+
+.project-tags {
+  margin: 0.5rem 0;
 }
 
 @media (max-width: 768px) {
   .projects-container {
-    grid-template-columns: 1fr; /* Mobilde tek sütun */
+    gap: 1rem;
+  }
+  
+  .project-content {
+    padding: 0.8rem;
   }
 }
 </style>
-
-<div class="projects-container">
-{% for project in site.projects %}
-  <div class="project-card">
-    <div class="project-image">
-      <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
-    </div>
-    
-    <div class="project-content">
-      <h3>{{ project.title }}</h3>
-      <p>{{ project.excerpt }}</p>
-      
-      <div class="project-tags">
-        {% for tag in project.tags %}
-          <span class="tag">{{ tag }}</span>
-        {% endfor %}
-      </div>
-
-      <div class="project-links">
-        {% if project.github %}
-          <a href="https://github.com/{{ project.github }}" class="btn btn--primary">
-            <i class="fab fa-github"></i> GitHub
-          </a>
-        {% endif %}
-        
-        {% if project.demo %}
-          <a href="{{ project.demo }}" class="btn btn--success">
-            <i class="fas fa-external-link-alt"></i> Demo
-          </a>
-        {% endif %}
-      </div>
-    </div>
-  </div>
-{% endfor %}
-</div>
