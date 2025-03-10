@@ -31,7 +31,7 @@ permalink: /projects/
 }
 
 .project-content {
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 @media (max-width: 768px) {
