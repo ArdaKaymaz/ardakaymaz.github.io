@@ -1,0 +1,12 @@
+- title: "Cat-Dog Classifier App"
+  image: /assets/images/projects/cat_dog.png
+  description: "Image classification model using pre-trained models."
+  tags: ["Artificial Intelligence", "Deep Learning", "Computer Vision", "Python"]
+  github_url: "https://github.com/ArdaKaymaz/Cat_Dog_Classifier_App"
+  app_url: "https://catdogclassifierapp.streamlit.app/"
+
+- title: "Apache vs The Fraudster"
+  image: /assets/images/projects/apache_fraudster.png
+  description: "A fraud detection model was developed using big data technologies."
+  tags: ["Big Data", "Machine Learning", "Hadoop", "Hive", "Spark", "Scala", "Linux/Unix", "Python"]
+  github_url: "https://github.com/ArdaKaymaz/Apache_vs_The_Fraudster"
