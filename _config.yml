@@ -319,6 +319,11 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
 
 # Defaults
 defaults:
@@ -333,16 +338,10 @@ defaults:
       comments: true
       share: true
       related: true
-
-collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
-    
-defaults:
+    # _projects
   - scope:
       path: ""
-      type: "projects"
+      type: projects
     values:
-      layout: "project"
+      layout: project
       author_profile: false
