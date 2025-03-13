@@ -6,6 +6,7 @@ tags:
   - "Artificial Intelligence |"
   - " Deep Learning |"
   - " A/B Test |"
-  - " TensorFlow"
+  - " TensorFlow |"
+  - " Python"
 github: "/ArdaKaymaz/Model_Comparison_Study"
 ---
