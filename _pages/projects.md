@@ -83,9 +83,9 @@ permalink: /projects/
           </a>
         {% endif %}
         
-        {% if project.demo %}
-          <a href="{{ project.demo }}" class="btn btn--success">
-            <i class="fas fa-external-link-alt"></i> Demo
+        {% if project.app %}
+          <a href="{{ project.app }}" class="btn btn--success">
+            <i class="fas fa-external-link-alt"></i> App Link
           </a>
         {% endif %}
       </div>
