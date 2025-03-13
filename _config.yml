@@ -326,9 +326,8 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-
-collections:
-  projects:
+    
+  publications:
     output: true
     permalink: /publications/:path/
 
