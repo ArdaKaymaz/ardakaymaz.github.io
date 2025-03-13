@@ -1,6 +1,6 @@
 ---
 title: "Concrete Work!"
-excerpt: "Model Comparison Study"
+excerpt: "Deep Learning Model Comparison Study"
 image: "/assets/images/projects/model_study.png"
 tags: 
   - "Artificial Intelligence |"
