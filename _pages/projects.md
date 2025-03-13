@@ -76,10 +76,16 @@ permalink: /projects/
         {% endfor %}
       </div>
 
-      <div class="project-links">
+      <div class="github-links">
         {% if project.github %}
           <a href="https://github.com/{{ project.github }}" class="btn btn--primary">
             <i class="fab fa-github"></i> GitHub
+          </a>
+        {% endif %}
+
+        {% if project.paper %}
+          <a href="{{ project.paper }}" class="btn btn--primary">
+            <i class="fas fa-external-link-alt"></i> Paper Link
           </a>
         {% endif %}
         
