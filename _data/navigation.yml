@@ -6,9 +6,9 @@ main:
     url: /
   - title: "Projects"
     url: /projects/
-  - title: "Curriculum Vitae"
-    url: /cv/
   - title: "Publications"
     url: /publications/
+  - title: "Curriculum Vitae"
+    url: /cv/
   # - title: "Sitemap"
   #   url: /sitemap/
