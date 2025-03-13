@@ -7,7 +7,7 @@ permalink: /projects/
 <style>
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 2 sütun */
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   padding: 1rem 0;
 }
@@ -28,7 +28,7 @@ permalink: /projects/
 .project-image {
   position: relative;
   width: 100%;
-  height: 250px; /* Sabit yükseklik */
+  height: 250px;
   overflow: hidden;
   border-radius: 8px 8px 0 0;
 }
@@ -47,14 +47,13 @@ permalink: /projects/
 }
 
 .project-content h2 {
-  /* Başlık üst boşluğunu sıfırla */
   margin-top: 0rem !important;
   padding-top: 0rem;
 }
 
 @media (max-width: 768px) {
   .projects-container {
-    grid-template-columns: 1fr; /* Mobilde tek sütun */
+    grid-template-columns: 1fr;
   }
 }
 </style>
