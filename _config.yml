@@ -327,8 +327,13 @@ collections:
     output: true
     permalink: /projects/:path/
 
+collections:
+  projects:
+    output: true
+    permalink: /publications/:path/
+
 defaults:
-  # Posts için varsayılanlar (mevcut ayarlar korundu)
+  # Posts
   - scope:
       path: ""
       type: posts
@@ -340,10 +345,24 @@ defaults:
       share: true
       related: true
 
-  # Projects koleksiyonu için yeni varsayılanlar
+  # Projects
   - scope:
       path: ""
       type: projects
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      comments: false
+      read_time: false
+      toc: false
+      sidebar: 
+        nav: false
+
+  # Publications    
+  - scope:
+      path: ""
+      type: publications
     values:
       layout: single
       author_profile: false
