@@ -5,14 +5,14 @@ permalink: /publications/
 ---
 
 <style>
-.projects-container {
+.publications-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   padding: 1rem 0;
 }
 
-.project-card {
+.publication-card {
   border: 1px solid #eaeaea;
   border-radius: 8px;
   overflow: hidden;
@@ -21,11 +21,11 @@ permalink: /publications/
   margin-bottom: 0rem;
 }
 
-.project-card:hover {
+.publication-card:hover {
   transform: translateY(-3px);
 }
 
-.project-image {
+.publication-image {
   position: relative;
   width: 100%;
   height: 250px;
@@ -33,7 +33,7 @@ permalink: /publications/
   border-radius: 8px 8px 0 0;
 }
 
-.project-image img {
+.publication-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -42,35 +42,35 @@ permalink: /publications/
   margin-bottom: 0rem;
 }
 
-.project-content {
+.publication-content {
   padding: 0.5rem;
 }
 
-.project-content h2 {
+.publication-content h2 {
   margin-top: 0rem !important;
   padding-top: 0rem;
 }
 
 @media (max-width: 768px) {
-  .projects-container {
+  .publications-container {
     grid-template-columns: 1fr;
   }
 }
 </style>
 
 <div class="projects-container">
-{% for project in site.projects %}
+{% for publication in site.publications %}
   <div class="project-card">
     <div class="project-image">
       <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
     </div>
     
-    <div class="project-content">
-      <h2>{{ project.title }}</h2>
-      <p>{{ project.excerpt }}</p>
+    <div class="publication-content">
+      <h2>{{ publication.title }}</h2>
+      <p>{{ publication.excerpt }}</p>
       
-      <div class="project-tags">
-        {% for tag in project.tags %}
+      <div class="publication-tags">
+        {% for tag in publication.tags %}
           <span class="tag">{{ tag }}</span>
         {% endfor %}
       </div>
