@@ -58,11 +58,11 @@ permalink: /publications/
 }
 </style>
 
-<div class="projects-container">
+<div class="publications-container">
 {% for publication in site.publications %}
-  <div class="project-card">
-    <div class="project-image">
-      <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+  <div class="publication-card">
+    <div class="publication-image">
+      <img src="{{ publication.image | relative_url }}" alt="{{ publication.title }}">
     </div>
     
     <div class="publication-content">
@@ -76,20 +76,20 @@ permalink: /publications/
       </div>
 
       <div class="github-links">
-        {% if project.github %}
-          <a href="https://github.com/{{ project.github }}" class="btn btn--primary">
+        {% if publication.github %}
+          <a href="https://github.com/{{ publication.github }}" class="btn btn--primary">
             <i class="fab fa-github"></i> GitHub
           </a>
         {% endif %}
 
-        {% if project.paper %}
-          <a href="{{ project.paper }}" class="btn btn--primary">
+        {% if publication.paper %}
+          <a href="{{ publication.paper }}" class="btn btn--primary">
             <i class="fas fa-external-link-alt"></i> Paper Link
           </a>
         {% endif %}
         
-        {% if project.app %}
-          <a href="{{ project.app }}" class="btn btn--success">
+        {% if publication.app %}
+          <a href="{{ publication.app }}" class="btn btn--success">
             <i class="fas fa-external-link-alt"></i> App Link
           </a>
         {% endif %}
