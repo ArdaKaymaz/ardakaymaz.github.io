@@ -9,5 +9,5 @@ tags:
   - " Pre-Trained Models |"
   - " Python"
 github: "/ArdaKaymaz/Cat_Dog_Classifier_App"
-demo: "https://catdogclassifierapp.streamlit.app/"
+app: "https://catdogclassifierapp.streamlit.app/"
 ---
