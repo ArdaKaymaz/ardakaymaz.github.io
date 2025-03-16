@@ -1,11 +1,6 @@
 ---
 title: "Digit Recognition with AI"
-excerpt: "This project developed a basic Artificial Neural Network (ANN) to classify handwritten digits from the MNIST dataset (28x28 grayscale images of 0-9). The model architecture includes:
-- A Flatten layer to convert 28x28 pixels into a 1D input.
-- A hidden Dense layer (128 units, ReLU activation).
-- An output layer (10 units, softmax activation for class probabilities).
-
-Trained with the Adam optimizer and categorical cross-entropy loss, the model achieved 97.7% test accuracy, 98.0% precision, and 97.6% recall, demonstrating strong performance despite its simplicity. The results validate ANNs as effective tools for basic image recognition tasks."
+excerpt: "This project developed a basic Artificial Neural Network (ANN) to classify handwritten digits from the MNIST dataset (28x28 grayscale images of 0-9). Trained with the Adam optimizer and categorical cross-entropy loss, the model achieved 97.7% test accuracy, 98.0% precision, and 97.6% recall, demonstrating strong performance despite its simplicity. The results validate ANNs as effective tools for basic image recognition tasks."
 image: "/assets/images/projects/mnist.png"
 tags:
   - "Artificial Intelligence |"
