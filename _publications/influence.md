@@ -15,7 +15,7 @@ Survivability rates by plumage color:<br>
 
 - White: 86.99% (significantly lower than others, P<0.05).<br>
 
-- Birds hatching on the 17th day had a 56% higher survival probability compared to those hatching after 17 days (P=0.07).
+- Birds hatching on the 17th day had a 56% higher survival probability compared to those hatching after 17 days (P=0.07).<br>
 
 - A 1-gram increase in hatching weight increased survival probability by 23% (P=0.03).<br>
 
