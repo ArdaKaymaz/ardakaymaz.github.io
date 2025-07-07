@@ -33,7 +33,7 @@ toc_icon: "gear"
 
         <!-- Family Farm -->
         <li>
-            <strong style="color: black;">06/2018 — 11/2022:</strong> Data Analyst @ <em>Family Farm, Turkey</em>
+            <strong style="color: black;">06/2018 — 11/2022:</strong> Data Scientist @ <em>Family Farm, Turkey</em>
             <div style="margin-left: 0; margin-bottom: 1rem; color: black;">
                 Led and designed a data project, performed advanced data analysis and statistical modeling to enhance efficiency, sustainability, and revenue growth.
             </div>
