@@ -11,5 +11,5 @@ tags:
   - " Gemini |"
   - " Python |"
   - " Scientific Summarization"
-github: "/ArdaKaymaz/Cite-Me-If-You-Can"
+github: "/ArdaKaymaz/Cite_Me_If_You_Can"
 ---
