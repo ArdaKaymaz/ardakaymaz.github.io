@@ -15,9 +15,10 @@ classes: wide
   <h3 style="margin-top: 20px;">E-Commerce & Retail:</h3>
   <ul style="padding-left: 15px; line-height: 1.6;">
     <li>Demand Forecasting</li>
-    <li>Customer Segmentation & Campaign Analytics</li>
-    <li>Market Basket & Cross-Sell Analysis</li>
     <li>Sales and Inventory Forecasting</li>
+    <li>Customer Feedback Analytics</li>
+    <li>Customer Segmentation & Campaign Analytics</li>
+    <li>Market Basket & Cross-Sell Analysis</li>    
   </ul>
 
   <h3 style="margin-top: 20px;">Manufacturing & Operations:</h3>
