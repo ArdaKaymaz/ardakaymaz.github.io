@@ -26,8 +26,8 @@ classes: wide
     <li>Production & Process Optimization</li>
     <li>Supply Chain Analytics</li>
   </ul>
-</div>
 
-  <!-- Optional "Read More" button -->
-  <p><a href="{{ '/cv' | relative_url }}" class="btn btn--primary">Click to see my CV</a></p>
+  <p style="margin-top: 30px;">
+    <a href="{{ '/cv' | relative_url }}" class="btn btn--primary">Click to see my CV</a>
+  </p>
 </div>
