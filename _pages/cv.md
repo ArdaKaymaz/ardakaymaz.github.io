@@ -53,7 +53,7 @@ toc_icon: "gear"
         </li>
 
         <li style="margin-top: 2rem;">
-            <strong style="color: black;">06/2020 — 11/2024:</strong> Quantitative Genetics &amp; Data Analyst @ <em>Kaymaz Livestock Production, Turkey</em>
+            <strong style="color: black;">06/2019 — 11/2023:</strong> Quantitative Genetics &amp; Data Analyst @ <em>Kaymaz Livestock Production, Turkey</em>
             <ul style="margin-left: 1.5rem; padding-left: 1rem; margin-top: 0.5rem;">
                 <li style="margin-bottom: 1rem;">Led end-to-end data-driven projects in a livestock breeding operation, applying statistical modeling and experimental design to drive measurable business outcomes.</li>
                 <li style="margin-bottom: 1rem;">Collected and processed livestock performance data through systematic field observations and measurements, managing datasets across multiple generations using spreadsheets.</li>
