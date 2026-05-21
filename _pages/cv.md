@@ -31,7 +31,7 @@ toc_icon: "gear"
 
         <!-- Dedeoglu -->
         <li>
-            <strong style="color: black;">08/2024 — Present:</strong> Data Science &amp; Business Growth Professional @ <em>Dedeoglu Jewelry &amp; Goldsmith Co., Turkey</em>
+            <strong style="color: black;">08/2024 — Present:</strong> Data Science &amp; Business Growth Analyst @ <em>Dedeoglu Jewelry &amp; Goldsmith Co., Turkey</em>
             <ul style="margin-left: 1.5rem; padding-left: 1rem; margin-top: 0.5rem;">
                 <li style="margin-bottom: 1rem;">Developed an AI model that predicts the timing and magnitude of customer demand shifts driven by gold price volatility with 72% accuracy; model outputs were directly integrated into investment gold inventory management and procurement decisions.</li>
                 <li style="margin-bottom: 1rem;">Combined data from major e-commerce marketplaces, competitor analysis, Google Trends, and offline customer demand to conduct product-level demand analysis; the analysis was directly utilized by management to reduce average product shelf time by 15%.</li>
